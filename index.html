@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="https://kit.fontawesome.com/00a8155432.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="index.css">
+<title>Mount Rainer National Park</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg py-3 fixed-top">
+        <div class="container">
+            <img id="logo" src="static/OIP.jpg" alt="logo">
+            <a href="#" class="navbar-brand">Mount Rainer</a>
+            <button 
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggler="collapse"
+                data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#things-to-do" class="nav-link">Things to do</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#location" class="nav-link">Location</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Panel -->
+
+    <section id="about" class="p-10 p-lg-0 lg-10 text-center text-sm-start shadow-lg">
+        <div class="container mt-10 p-5">
+            <h2 id="section-header" class="text-center p-5">About</h2>
+            <div class="row-md col-sm">
+                <div class="d-sm-flex align-items-center justify-content-evenly">
+                    <img src="static/background 2.jpg" alt="" class="logo-lg col-lg-7 col-md-5">
+                    <h1 class="about-text p-5 col-lg-7 col-md-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Accusamus impedit, magnam illo quo sint temporibus dolores quae nisi deserunt tempora molestiae 
+                        totam voluptatibus sed blanditiis assumenda accusantium quidem harum iste? Doloremque quae eveniet 
+                        esse animi.</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Things to do Panel -->
+
+    <section id="things-to-do" class="p-10 p-lg-0 lg-10 text-center text-sm-start">
+        <div id="things" class="container mt-10 p-5">
+            <h2 id="section-header" class="text-center p-5">Things to do</h2>
+
+              <div id="carousel-text" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel-text" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel-text" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel-text" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carousel-text" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carousel-text" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="static/hiking 3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Hiking</h5>
+                      <p>Experience various wildflowers, lakes, and mountainviews.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="static/Moutain climbing 4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Mountain Climbing</h5>
+                      <p>Spend a day in the clouds.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="static/camping 2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Camping</h5>
+                      <p>Surround yourself with nature.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="static/Reflection lake 3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Reflection Lakes</h5>
+                      <p>See what the lakes reflect throughout the year.</p>
+                    </div>
+                  </div><div class="carousel-item">
+                    <img src="static/Star gazing 2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Star Gazing</h5>
+                      <p>Be curious and explore the stars.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-text" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-text" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+    </section>
+
+    <!-- Gallery Panel-->
+
+    <section id="gallery" class="p-10 p-lg-0 lg-10 text-center text-sm-start shadow-lg">
+        <div class="container p-5">
+            <h2 id="section-header" class="text-center p-5">Gallery</h2>
+            <div class="row g-4 p-4">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="static/Sunrise at Mount Rainer.webp" alt="Mountainview on a sunny day" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="static/Visitor Center.jpg" alt="Mount Rainer visitor center" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="static/hiking 1.jpg" alt="Hiking with small stream" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="static/mountain climbing.jpg" alt="People mountain climbing in a line" class="img-fluid shadow-lg p-0">
+                </div>
+            </div>
+            <div class="row g-4 p-4">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="static/Wild flowers 3.jpg" alt="Wildflowers" class="img-fluid shadow-lg p-0">
+                </div><div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="static/star gazing 4.png" alt="Milky Way at Mount Rainer" class="img-fluid shadow-lg p-0">
+                </div><div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="static/Camping 4.jpg" alt="People camping at Mount Rainer" class="img-fluid shadow-lg p-0">
+                </div><div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="static/Waterfall at Mount Rainer National Park.jpg" alt="Waterfall at Mount Rainer National Park" class="img-fluid shadow-lg p-0">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Panel -->
+
+
+    <div id="location" class="container mt-10 p-5">
+        <h2 id="section-header" class="text-center p-5">Location</h2>
+        <div class="d-sm-flex align-items-start justify-content-left">
+            <img src="static/Mount Rainer Location.jpg" alt="" class="img-fluid col-lg-3 col-md-2">
+            <div class="footinfo">
+                <div class="foothead">Mount Rainer Visitor Center</div>
+                <div class="location">
+                    <p class="tiny"><i class="fa-solid fa-location-dot"></i>30510 Sr 706 E, Ashford, WA 98304</p>
+                </div>
+                <div class="email">
+                    <p class="tiny"><i class="fa-solid fa-envelope"></i>example@example.com</p>
+                </div><div class="phone">
+                    <p class="tiny"><i class="fa-solid fa-phone"></i>(555)-555-5555</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
